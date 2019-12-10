@@ -1,0 +1,52 @@
+<main>
+    <h1>ROLÊ TOP</h1> 
+    <h2>Pede aí, @Model.NomeUsuario</h2>  
+    <form method="POST" action='@Url.Action("Registrar","Pedido")'>
+        <div class="section-container">
+            <div class="titulo23">
+                <h2>Cadastro de Evento</h2>
+                <p>Informações do Evento</p>
+            </div>
+        </div>
+        <div class="inf">
+            <br/>
+            <br/>
+            <div>
+                <label for="tipos">Tipo de Evento:</label>
+                <br />
+                <input id="tipo" name="tipo" type="text" placeholder="ex.Casamento, Festa, etc..." required>
+            </div>
+
+            <div>
+                <label for="data">Data do Evento:</label>
+                <br />
+                <input type="date" name="data" required>
+            </div>
+            
+            <div>
+                <label for="numeroPessoas">Número de Pessoas:</label>
+                <br />
+                <input id="numeroPessoas" name="numeroPessoas" required="required" type="number" min="1" max="400" placeholder="Máximo 400" required/>
+            </div>
+
+            <div>
+                <label for="servico">Serviços</label>
+                <select id="servico" name="servico" required>
+                <option value="" disabled selected>Selecione</option>
+                <option value="nenhum">Nenhum</option>
+                <option value="som">Som</option>
+                <option value="iluminacao">Luz</option>
+                <option value="ambos">Ambos</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="observacoes">Observações</label>
+                <br />
+                <input id="observacoes" type="text" maxlength="250" name="observacoes" required>
+            </div>
+        </div>
+        <input type="submit" value="Pedir">
+    </form>
+
+</main>

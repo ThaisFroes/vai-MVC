@@ -1,0 +1,45 @@
+@model Role_MVC.ViewModel.HistoricoViewModel
+
+@{
+ViewData["Title"] = "Pedidos- RoleTop";
+ViewData["H2"] = "Histórico de Agendamentos";
+}
+<main>
+<h2>
+    @ViewData["H2"]
+</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Tipo do Evento</th>
+            <th>Data</th>
+            <th>Numero de Convidados</th>
+            <th>Serviços</th>
+            <th>Observações</th>
+            <th>Status do Evento</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach( var pedido in Model.Pedidos ) {
+            <tr>
+            <td>@pedido.Produto.Tipo</td>
+            <td>@pedido.Produto.Data</td>
+            <td>@pedido.Produto.NumeroPessoas</td>
+            <td>@pedido.Produto.Servicos</td>
+            <td>@pedido.Produto.Observacoes</td>
+            @if (@pedido.Produto.Status == 0)
+            {
+                <td>Seu pedido está em análise.</td>
+            } else if (@pedido.Produto.Status == 1)
+            {
+                <td>Seu evento foi aprovado.</td>
+            } else if(@pedido.Produto.Status == 2)
+            {
+                <td>Seu evento foi reprovado.</td>
+            }
+            </tr>
+        }
+    </tbody>
+</table>
+
+</main>

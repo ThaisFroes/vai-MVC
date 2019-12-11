@@ -1,11 +1,16 @@
 <main>
     <h1>ROLÊ TOP</h1> 
-    <h2>Pede aí, @Model.NomeUsuario</h2>  
+    <section id="logo-area">
+        <img src="~/img/logo.jpg">
+        <p>ROLÊ TOP<br/>A sua festa do seu jeito</p>
+    </section>
+    <h3>@Model.NomeUsuario, preencha as Informações sobre o seu evento.</h3>  
     <form method="POST" action='@Url.Action("Registrar","Pedido")'>
         <div class="section-container">
             <div class="titulo23">
+                <br/>
                 <h2>Cadastro de Evento</h2>
-                <p>Informações do Evento</p>
+                <br/>
             </div>
         </div>
         <div class="inf">
@@ -16,37 +21,76 @@
                 <br />
                 <input id="tipo" name="tipo" type="text" placeholder="ex.Casamento, Festa, etc..." required>
             </div>
-
+            <br/>
             <div>
                 <label for="data">Data do Evento:</label>
                 <br />
                 <input type="date" name="data" required>
             </div>
-            
+            <br/>
             <div>
                 <label for="numeroPessoas">Número de Pessoas:</label>
                 <br />
                 <input id="numeroPessoas" name="numeroPessoas" required="required" type="number" min="1" max="400" placeholder="Máximo 400" required/>
             </div>
-
+            <br/>
             <div>
-                <label for="servico">Serviços</label>
+                <label for="servico">Serviços<br/></label>
                 <select id="servico" name="servico" required>
                 <option value="" disabled selected>Selecione</option>
                 <option value="nenhum">Nenhum</option>
                 <option value="som">Som</option>
                 <option value="iluminacao">Luz</option>
-                <option value="ambos">Ambos</option>
+                <option value="ambos">Som e Luz</option>
                 </select>
             </div>
-
+            <br/>
+            <div>
+                <label for="servico">Formas de Pagamento:<br/></label>
+                <select id="pagamento" name="pagamento" required>
+                <option value="" disabled selected>Selecione</option>
+                <option value="cartão de crédito">Cartão de Crédito</option>
+                <option value="cartão de débito">Cartão de Débito</option>
+                <option value="boleto">Boleto</option>
+                </select>
+            </div>
+            <br/>
+            <div>
+                <label for="servico">Status do Evento<br/></label>
+                <select id="status" name="status" required>
+                <option value="" disabled selected>Selecione</option>
+                <option value="publico">Publico</option>
+                <option value="privado">Privado</option>
+                
+                </select>
+            </div>
+            <br/>
             <div>
                 <label for="observacoes">Observações</label>
                 <br />
                 <input id="observacoes" type="text" maxlength="250" name="observacoes" required>
+            <br/>
+            <br/>
             </div>
-        </div>
-        <input type="submit" value="Pedir">
-    </form>
+            <div>
+                <br/>
+                <input type="submit" value="Enviar">
+                <br/>
+                <br/>
+                <br/>
+            </div>
+        
 
+        </div>
+        <br/>
+        <br/>
+        <br/>
+    </form>
+<section id="local">
+        <div class="section-container">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8869961505543!2d-46.648477085071065!3d-23.53656648469522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5843deade6e3%3A0x124f377d06c7e71f!2sAlameda+Bar%C3%A3o+de+Limeira%2C+539+-+Campos+El%C3%ADseos%2C+S%C3%A3o+Paulo+-+SP%2C+01202-001!5e0!3m2!1sen!2sbr!4v1550223658410"
+            width="100%" height="20%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
 </main>

@@ -7,20 +7,19 @@ main {
     justify-content: space-between;
 }
 
-#adm {
-    background-color: #ffc600;
-}
-
-
 h2 {
     font-size: 1.8em;
 }
 
-
 h3 {
     padding: 0.5em 0;
     font-size: 1.3em;
-    color: #7d0093;
+    color: #361a0c;
+    text-shadow: 
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+   -1px  1px 0 #fff,
+    1px  1px 0 #fff;
 }
 
 h4 {
@@ -32,7 +31,6 @@ h4 {
     width: 30%;
     padding-top: .5em;
     text-align: center;
-    
 }
 .box-status-pedidos > p {
     font-size: 2em;
@@ -44,17 +42,17 @@ h4 {
 }
 
 .box-status-pedidos.aprovados {
-    background-color: darkgreen;
+    background-color: #669100;
 }
 
 .box-status-pedidos.pendentes {
-    background-color: #ffc600;
+    background-color: #ff9933;
 }
 
 table {
     text-align: center;
-    color: black;
-    border: 1px dashed #ffc600;
+    color: #fff;
+    border: 1px dashed #ff9933;
     width: 100%;
     padding: 5px;
     word-break: normal;
@@ -66,7 +64,7 @@ table th {
 
 table a {
     text-decoration: none;
-    color: #ffc600;
+    color: #ff9933;
 }
 
 table a:hover {
@@ -75,7 +73,7 @@ table a:hover {
 
 tfoot td {
     text-align: center;
-    color: #ffc600;
+    color: #ff9933;
     background-color: #a70000;
 }
 

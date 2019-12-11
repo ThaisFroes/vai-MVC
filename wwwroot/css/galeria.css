@@ -6,7 +6,7 @@
 #galeria ul {list-style:none; }
 #galeria ul li {display:inline;}
 #galeria ul img  {
-    border: 5px solid #7d0093;
+    /*border: 5px solid #7d0093;*/
 
     color:#7d0093;
 }

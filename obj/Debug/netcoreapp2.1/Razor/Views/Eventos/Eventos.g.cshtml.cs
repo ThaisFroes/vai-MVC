@@ -104,7 +104,7 @@ using Role_MVC.Models;
                     ");
             EndContext();
             BeginContext(1682, 26, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0fa5b992cbef4d21a24789708a38b9bd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "208e5b2eeb9e4a5b8c0594cb4682d290", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper>();
@@ -123,7 +123,7 @@ using Role_MVC.Models;
             WriteLiteral("\r\n                    ");
             EndContext();
             BeginContext(1730, 42, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "18aae5adb7fb473cbf62378301b8768c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "daa827a4574e4d1e809b41a7317e8e2e", async() => {
                 BeginContext(1755, 8, true);
                 WriteLiteral("Dinheiro");
                 EndContext();
@@ -145,7 +145,7 @@ using Role_MVC.Models;
             WriteLiteral("\r\n                    ");
             EndContext();
             BeginContext(1794, 49, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c8acbb3915b341dea21032fd67615c04", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3f0b088304a44ef4a96b6cb656fa394a", async() => {
                 BeginContext(1828, 6, true);
                 WriteLiteral("Cartão");
                 EndContext();

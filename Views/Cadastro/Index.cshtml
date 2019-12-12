@@ -14,6 +14,7 @@
             <div classe="cadastro"></div>
     <form method="POST" action='@Url.Action("CadastrarCliente", "Cadastro")'>
         <div>
+            <br/>
             <label for="nome">Nome Completo</label>
             <br />
             <input id="nome" type="text" maxlength="40" minlength="10" name="nome" required placeholder="ex.Maria dos Santos Silva"/>
@@ -38,7 +39,7 @@
         </div>
 
         <div>
-            <label for="cpf">CPF</label>
+            <label for="cpf">CPF/CNPJ</label>
             <br />
             <input id="cpf" type="telefone" maxlength="11" minlength="11" name="cpf" required placeholder="ex.444333222/11"/>
         </div>

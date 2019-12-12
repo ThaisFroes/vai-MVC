@@ -18,27 +18,37 @@ namespace Role_MVC.Controllers
 
         protected string ObterUsuarioSession(){
             var email = HttpContext.Session.GetString(SESSION_CLIENTE_EMAIL);
-            if(!string.IsNullOrEmpty(email)) {
+            if(!string.IsNullOrEmpty(email)) 
+            {
                 return email;
-            } else {
+            } 
+            else 
+            {
                 return "";
             }
         }
 
-        protected string ObterUsuarioNomeSession(){
+        protected string ObterUsuarioNomeSession()
+        {
             var nome = HttpContext.Session.GetString(SESSION_CLIENTE_NOME);
-            if(!string.IsNullOrEmpty(nome)){
+            if(!string.IsNullOrEmpty(nome))
+            {
                 return nome;
-            } else{
+            } 
+            else
+            {
                 return "";
             }
         }
 
-        protected string ObterUsuarioTipoSession(){
+        protected string ObterUsuarioTipoSession()
+        {
             var tipoUsuario = HttpContext.Session.GetString(SESSION_TIPO_USUARIO);
-            if(!string.IsNullOrEmpty(tipoUsuario)){
+            if(!string.IsNullOrEmpty(tipoUsuario))
+            {
                 return tipoUsuario;
-            } else{
+            } else
+            {
                 return "";
             }
         }

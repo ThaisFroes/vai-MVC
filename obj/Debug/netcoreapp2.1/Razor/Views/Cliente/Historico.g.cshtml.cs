@@ -64,7 +64,7 @@ ViewData["H2"] = "Histórico de Agendamentos";
             WriteLiteral("<main>\r\n    <section id=\"logo-area\">\r\n        ");
             EndContext();
             BeginContext(189, 26, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a63a39a55f40498c97a7eee6219b9c78", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c8e3beb52e9640928852323f5f341398", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

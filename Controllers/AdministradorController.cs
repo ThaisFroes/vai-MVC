@@ -39,7 +39,7 @@ namespace Role_MVC.Controllers
             } else {
                 return View("Falha", new RespostaViewModel(){
                     NomeView = "Dashboard",
-                    Mensagem = "Você não é digno de entrar nesta tela."
+                    Mensagem = "Você não pode acessar essa área."
                 });
             }
         }

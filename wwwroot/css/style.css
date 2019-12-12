@@ -29,6 +29,7 @@ table {
     align-items: center; */
 }
 
+
 #status-pedidos {
     text-align: center;
     background-color: #7d0093;
@@ -62,7 +63,7 @@ text-align: center;
 
 #logo-area img {
     width: 100%;
-    height: 35%;
+    height: 38%;
 }
 
 #logo-area p {
@@ -299,6 +300,8 @@ a.active {
     text-align: center;
     background-color: #7d0093;
 }
+
+
 
 #dperguntas {
     background-color: #7d0093;

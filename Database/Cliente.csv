@@ -1,3 +1,6 @@
 tipo_usuario=0;nome=Administrador;email=admin@gmail.com;senha=123456;telefone=;endereco=;cpf=;data_nascimento=04/12/2019 00:00:00
 tipo_usuario=1;nome=Thais Froes;email=tais_froes@hotmail.com;senha=123456;telefone=11958750187;endereco=rua egidio;cpf=44592799835;data_nascimento=01/01/1998 00:00:00
 tipo_usuario=1;nome=João Felipe;email=joao@hotmail.com;senha=123456;telefone=11955555555;endereco=rua das rosas;cpf=45645815454;data_nascimento=20/02/2002 00:00:00
+tipo_usuario=1;nome=Flavio;email=flavio@email.com;senha=123456;telefone=11958750181;endereco=BlaBla;cpf=44592799835;data_nascimento=10/06/2019 00:00:00
+tipo_usuario=1;nome=Matheus Marques;email=matheus@email.com;senha=matheusp8;telefone=52525145;endereco=rua leagl;cpf=62536326652;data_nascimento=07/11/2019 00:00:00
+tipo_usuario=1;nome=Luzia Pessoa;email=lu@hotmail.com;senha=123456;telefone=11958750181;endereco=rua egidio;cpf=44592799835;data_nascimento=21/12/2019 00:00:00

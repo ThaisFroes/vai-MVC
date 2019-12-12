@@ -18,7 +18,7 @@ namespace Role_MVC.Controllers
         [HttpGet]
         public IActionResult Login()
         {
-        return View(new RespostaViewModel()
+        return View(new BaseViewModel()
             {
                 NomeView = "Login",
                 UsuarioEmail = ObterUsuarioSession(),
@@ -50,11 +50,12 @@ namespace Role_MVC.Controllers
                                     HttpContext.Session.SetString(SESSION_TIPO_USUARIO, cliente.TipoUsuario.ToString());
                                     return RedirectToAction("Dashboard", "Administrador");
                             }
-                        } else {
-                            return View("Login", new RespostaViewModel(" *Senha incorreta* "));
+                        } else 
+                        {
+                            return View("Erro", new RespostaViewModel(" Senha incorreta, tente novamente. "));
                         }
                     } else {
-                        return View("Login", new RespostaViewModel($" * Usuário {usuario} não foi encontrado *"));
+                        return View("Erro", new RespostaViewModel($"  O usuário citado {usuario} não foi encontrado *"));
                     }
             } catch(Exception e){
                 System.Console.WriteLine(e.StackTrace);

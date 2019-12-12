@@ -54,7 +54,7 @@ using Role_MVC.Models;
             WriteLiteral("<main>\r\n    <h1>ROLÊ TOP</h1>    \r\n    <section id=\"logo-area\">\r\n        ");
             EndContext();
             BeginContext(73, 26, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "47552f24a8124774994cb639182b38c2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "62ca344379e94c7286a97f64bd4bb432", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

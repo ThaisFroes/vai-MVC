@@ -57,7 +57,7 @@ using Role_MVC.Models;
             WriteLiteral("<main>\r\n        <section id=\"logo-area\">\r\n        ");
             EndContext();
             BeginContext(50, 26, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "d915cddf26834ade91265e58b2d01816", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ecf4065c9b064975bf3f42d151d2b276", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -75,7 +75,7 @@ using Role_MVC.Models;
             WriteLiteral("\r\n        <p>ROLÊ TOP<br/>Login</p>\r\n        </section>\r\n        <section id=\"banner\">\r\n        <div class=\"section-container\">\r\n            <br/>\r\n            <p><strong>Vem fazer parte dessa festa  </p>\r\n        ");
             EndContext();
             BeginContext(290, 745, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2500ba4b9ed9488890e5dfee3d0efa43", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4e740e43ed784d2d8a8ccf6bf1ce90ee", async() => {
                 BeginContext(351, 543, true);
                 WriteLiteral(@"
 

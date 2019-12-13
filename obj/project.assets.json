@@ -11806,11 +11806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\44592799836\\Desktop\\site_Thais\\Role_MVC.csproj",
+      "projectUniqueName": "C:\\Users\\44592799836\\Desktop\\site_thais\\Role_MVC.csproj",
       "projectName": "Role_MVC",
-      "projectPath": "C:\\Users\\44592799836\\Desktop\\site_Thais\\Role_MVC.csproj",
+      "projectPath": "C:\\Users\\44592799836\\Desktop\\site_thais\\Role_MVC.csproj",
       "packagesPath": "C:\\Users\\44592799836\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\44592799836\\Desktop\\site_Thais\\obj\\",
+      "outputPath": "C:\\Users\\44592799836\\Desktop\\site_thais\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

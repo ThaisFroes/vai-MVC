@@ -15,9 +15,8 @@ table {
     padding: 5px;
     word-break: normal;
     text-align: center;
+    font-size: 2.3em;
 }
-
-
 
 
 #logo-area {
@@ -63,12 +62,12 @@ text-align: center;
 
 #logo-area img {
     width: 100%;
-    height: 38%;
+    height: 39%;
 }
 
 #logo-area p {
     color:#fff;
-    font-size: 3em;
+    font-size: 5em;
     background: #000;
     width: 100%;
 } 
@@ -80,6 +79,7 @@ text-align: center;
 
 body {
     font-family: 'Calibri', 'Open Sans', sans-serif;
+    font-size: 1em;
 }
 
 form {
@@ -87,6 +87,7 @@ form {
     margin-top: 0em;
     margin-block-end: 0em;
     background-color: #000;
+    font-size: 2.9em;
 
 }
 
@@ -94,8 +95,10 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
 }
 
+
+
 h4 {
-    font-size: 2em;
+    font-size: 3.2em;
 }
 
 #teste {
@@ -106,8 +109,12 @@ h1 {
     display: none;
 }
 
+p {
+    font-size: 3em;
+}
+
 h2 {
-    font-size: em;
+    font-size: 3em;
     justify-content: flex-end;
     text-align: center;
     color: #000;
@@ -123,7 +130,7 @@ h2 > img {
 h3{
     color: #7d0093;
     text-align: center;
-    font-size: 2em;
+    font-size: 3.8em;
     background-color: #000;
 }
 
@@ -143,7 +150,15 @@ h6 {
 }
 
 section h2 {
-    padding: 20px 0;
+    padding: 40px 0;
+}
+
+input {
+    font-size: 1em;
+}
+
+select {
+    font-size: 1em;
 }
 
 section > a {
@@ -155,7 +170,7 @@ section > a {
 
 .section-container {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 88%;
 }
 
 .section-container > img{
@@ -196,7 +211,7 @@ nav ul {
     flex-wrap: nowrap;
     justify-content:space-between;
     align-items: center;
-    font-size: 1.3em;
+    font-size: 2em;
     list-style-type: none;
 }
 
@@ -258,7 +273,7 @@ a.active {
 
 #banner strong {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.7em;
 }
 
 
@@ -295,7 +310,7 @@ a.active {
 }
 
 #historia {
-    font-size: 1.4em;
+    font-size: 2.8em;
     color:  #ffc600;
     text-align: center;
     background-color: #7d0093;
@@ -307,7 +322,7 @@ a.active {
     background-color: #7d0093;
     color: #ffc600;
     text-align: center;
-    font-size: 1,3em;
+    font-size: 2.3em;
 }
 
 #infra {
@@ -378,7 +393,7 @@ a.active {
  }
 
  .top-container > img {
-    width: 100%;
+    width: 1000px;
  }
 
  #sobre {
@@ -422,11 +437,12 @@ footer {
     text-align: center;
     color: #ffc600;
     width: 100%;
+    font-size: 2.3em;
 }
 
 address {
-    padding: 10px 0;
-    font-style: normal;
+    padding: 34px 0px;
+    font-style: 5em;
 }
 
 .up-text {
@@ -438,17 +454,21 @@ address {
     background-color: #000; 
 }
 
+ul {
+    width: 100%;
+}
 
 
-@media (max-width: 1200px) {
+@media (max-width: 4500px) {
     #banner p {
-        font-size: 1.6em;
+        font-size: 2.3em;
         font-weight: bold;
-        padding-left: 2.5em;
+        /*padding-left: 2.5em;*/
+        background-color: #ffc600;
     }
 }
 
-@media (max-width: 2900px) {
+@media (max-width: 1400px) {
     .top-section > div {
         margin: 0.5em;
         max-width: 45%;

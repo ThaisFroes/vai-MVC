@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Role_MVC.csproj",
+  "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Role_MVC.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2877,92 +2877,92 @@
   "RootNamespace": "Role_MVC",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Pedido\\Index.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Pedido\\Index.cshtml",
       "TargetPath": "Views\\Pedido\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Eventos\\Eventos.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Eventos\\Eventos.cshtml",
       "TargetPath": "Views\\Eventos\\Eventos.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Duvidas\\Index.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Duvidas\\Index.cshtml",
       "TargetPath": "Views\\Duvidas\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Administrador\\Dashboard.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Administrador\\Dashboard.cshtml",
       "TargetPath": "Views\\Administrador\\Dashboard.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Shared\\Erro.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Shared\\Erro.cshtml",
       "TargetPath": "Views\\Shared\\Erro.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Cliente\\Login.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Cliente\\Login.cshtml",
       "TargetPath": "Views\\Cliente\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Cliente\\Historico.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Cliente\\Historico.cshtml",
       "TargetPath": "Views\\Cliente\\Historico.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Cadastro\\Index.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Cadastro\\Index.cshtml",
       "TargetPath": "Views\\Cadastro\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Galeria\\Index.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Galeria\\Index.cshtml",
       "TargetPath": "Views\\Galeria\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Sobre\\Index.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Sobre\\Index.cshtml",
       "TargetPath": "Views\\Sobre\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Shared\\Sucesso.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Shared\\Sucesso.cshtml",
       "TargetPath": "Views\\Shared\\Sucesso.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_Thais\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FilePath": "c:\\Users\\44592799836\\Desktop\\site_thais\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
     }
